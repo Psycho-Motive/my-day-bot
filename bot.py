@@ -16,7 +16,7 @@ from telegram.ext import (
 )
 
 # ─────────────────────────────────────────
-TOKEN = os.environ.get(", "")
+TOKEN = os.environ.get("BOT_TOKEN", "")
 DB_PATH = "diary.db"
 DEFAULT_TZ = "Europe/Moscow"
 SUMMARY_HOUR = 21   # во сколько слать вечернюю сводку
